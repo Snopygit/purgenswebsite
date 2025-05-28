@@ -387,13 +387,13 @@
 .hero-logo {
     width: 120px;
     height: 120px;
-    margin-bottom: 30px;
     border-radius: 50%;
     object-fit: cover;
+    margin: 0 auto 30px auto;
+    display: block;
     filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.8));
     animation: glow-pulse 3s ease-in-out infinite;
 }
-
 
 @keyframes glow-pulse {
     0%, 100% {
@@ -401,8 +401,8 @@
     }
     50% {
         filter: drop-shadow(0 0 30px rgba(139, 92, 246, 1));
-            }
-        }
+    }
+}
     </style>
 </head>
 <body>
@@ -421,14 +421,15 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <img src="Purgens lila.png" alt="Purgens Logo" class="hero-logo">
-            <h1>Team Purgens</h1>
-            <p>Fortnite Esports Excellence seit 2020</p>
-            <a href="#teams" class="cta-button">Entdecke unsere Teams</a>
-        </div>
-    </section>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <img src="images/purgens-logo.png" alt="Purgens Logo" class="hero-logo">
+        <h1>Team Purgens</h1>
+        <p>Fortnite Esports Excellence seit 2020</p>
+        <a href="#teams" class="cta-button">Entdecke unsere Teams</a>
+    </div>
+</section>
+
 
     <!-- Teams Section -->
     <section class="teams" id="teams">
